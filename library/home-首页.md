@@ -2,7 +2,7 @@
 
 <br>
 
-![欢迎使用amWiki！](amWiki/images/logo.png "欢迎使用amWiki！")  
+![OMS logo](/img/langong.png)  
 
 ### 欢迎使用 amWiki 轻文库!
 —— **amWiki 致力于让大家可以更简单、更便捷的建设个人和团队文库！**  
