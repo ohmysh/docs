@@ -28,7 +28,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: AmWIKI setup
-        run: npm install amwiki-g
+        run: npm install amwiki -g
 
       # Runs a set of commands using the runners shell
       - name: AmWIKI update
