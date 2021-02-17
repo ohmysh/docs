@@ -2,4 +2,4 @@
 
 <br>
 
-![OMS logo](https://ohmysh.github.io/docs/img/langong.png)  
+![OMS logo](https://516wjy.xyz:516/OhMySh-width.png)  
