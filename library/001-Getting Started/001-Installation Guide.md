@@ -19,6 +19,12 @@ curl https://raw.githubusercontent.com/ohmysh/ohmysh/main/install.sh > OMSInstal
 sh OMSInstaller.sh
 ```
 
+> ### For Chinese users
+>
+> Get the installer from this: 
+>
+> `curl https://ghproxy.com/https://raw.githubusercontent.com/ohmysh/ohmysh/main/install.sh > OMSInstaller.sh`
+
 ## Checking the Installation
 
 Run the following script with **any** shell.
