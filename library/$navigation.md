@@ -16,3 +16,7 @@
 
 ##### Uninstalling OhMySH
 - [Uninstalling OhMySH](?file=004-Uninstalling OhMySH/001-Uninstalling OhMySH "Uninstalling OhMySH")
+
+##### License and Contributors
+- [License](?file=100-License and Contributors/001-License "License")
+- [Contributors](?file=100-License and Contributors/002-Contributors "Contributors")
