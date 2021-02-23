@@ -41,4 +41,13 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git commit -m "Action Update"
           git push
+          
+      - name: Prepare for wiki
+        run: |
+          git clone https://github.com/ohmysh/ohmysh/wiki ../wiki
+          cp -r * ../wiki
+          cd ../wiki
+          git add -A
+          git commit -m "Action Update"
+          git push
 
