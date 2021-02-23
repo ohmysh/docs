@@ -34,14 +34,11 @@ jobs:
       - name: AmWIKI update
         run: amwiki -u
 
-      - name: Git update
+      - name: Git setup
         run: |
-          git add -A
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git commit -m "Action Update"
-          git push
-          
+
       - name: Prepare for wiki
         run: |
           git clone https://github.com/ohmysh/ohmysh/wiki ../wiki
@@ -50,4 +47,14 @@ jobs:
           git add -A
           git commit -m "Action Update"
           git push
+
+      - name: Git update
+        run: |
+          cd ../ohmysh
+          git add -A
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -m "Action Update"
+          git push
+          
 
