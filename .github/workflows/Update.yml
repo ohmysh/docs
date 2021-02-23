@@ -41,7 +41,7 @@ jobs:
 
       - name: Prepare for wiki
         run: |
-          git clone https://github.com/ohmysh/ohmysh/wiki ../wiki
+          git clone https://github.com/ohmysh/ohmysh.wiki.git ../wiki
           cp -r * ../wiki
           cd ../wiki
           git add -A
